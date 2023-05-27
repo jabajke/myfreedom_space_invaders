@@ -443,7 +443,7 @@ class SpaceInvaders(object):
                             self.bullets.add(leftbullet)
                             self.bullets.add(rightbullet)
                             self.allSprites.add(self.bullets)
-                            self.sounds['shoot2'].play()
+                            # self.sounds['shoot2'].play()
 
     def make_enemies(self):
         enemies = EnemiesGroup(10, 5)
